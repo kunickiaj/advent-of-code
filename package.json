@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-code",
+  "packageManager": "yarn@4.5.3",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "setup": "ts-node src/setup.ts",
+    "build": "tsc",
+    "repl": "ts-node",
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "script": "ts-node"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
